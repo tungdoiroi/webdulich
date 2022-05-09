@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/dbec573ec8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="header-top">
+        <i class="fas fa-bars"></i>
+        <ul>
+            <li style="--x:1;"><a href="">Trang chủ</a></li>
+            <li style="--x:2;"><a href="">Đặc điểm</a></li>
+            <li style="--x:3;"><a href="">Về chúng tôi</a></li>
+            <li style="--x:4;"><a href="">Bộ sưu tập</a></li>
+            <li style="--x:5;"><a href="">Đánh giá</a></li>
+            <li style="--x:6;"><a href="">Liên hệ</a></li>
+        </ul>
+    </div>
+    <div class="video-container">
+        <video src="video/Saigon - 15952.mp4" autoplay muted loop></video>
+    </div>
+    <div class="header-content">
+        <h1>Khám phá</h1>
+        <p>Xách ba lô lên và đi</p>
+        <form action="">
+            <h1>Bạn muốn đi đâu hè này</h1>
+            <p>Địa điểm</p>
+            <select>
+                <option value="#">--Chọn địa điểm--</option>
+            </select>
+            <p>Số người</p>
+            <input type="number" min="1" placeholder="Bạn muốn di bao nhiêu người">
+            <p>Ngày đi</p>
+            <input type="date">
+            <p>Ngày về</p>
+            <input type="date">
+            <button>Tìm kiếm</button>
+        </form>
+    </div>
+</header>
+
+<body>
+
+<section class="about">
+    <div class="container">
+        <h1 class="h1-style">About</h1>
+        <div class="about-content row">
+            <div class="about-content-left">
+                <img src="img/about.jpg" alt="">
+            </div>
+            <div class="about-content-right">
+                <h2>Tai sao ban chon chung toi</h2>
+                <p>Chung toi la cong ty hang dau ve du lich Viet</p>
+                <button class="btn">Tim hieu them</button>
+            </div>
+        </div>
+        <div class="service row">
+            <div class="service-item">
+                <img src="img/5-stars.png" alt="">
+                <p>Đặt phòng</p>
+            </div>
+            <div class="service-item">
+                <img src="img/customer.png" alt="">
+                <p>Dịch vụ 24/7</p>
+            </div>
+            <div class="service-item">
+                <img src="img/guide-book.png" alt="">
+                <p>Guide Book</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="script.js">
+
+</script>
+</body>
+</html>
